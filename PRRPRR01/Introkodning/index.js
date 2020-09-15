@@ -12,10 +12,10 @@ if (age >= 18){
 
 }
 
-Let text = document.querySelector("#text")
+let text = document.querySelector("#text")
 text.innerHTML = `${name} är ${age} år gammal`
 
-Let mult = document.querySelector("#multiplikation")
+let mult = document.querySelector("#multiplikation")
 let div = document.querySelector("#division")
 let add = document.querySelector("#addition")
 let sub = document.querySelector("#subtraktion")
