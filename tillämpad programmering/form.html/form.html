@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="mailto:Mahdi.Ahmadi@elev.ga.ntig.se" method="get" enctype="text/plain">
+        <h1>Mahdia (Mahdis Telia)</h1>
+        <p>Tack för att du fyller i alla uppgifter!</p>
+        
+        <hr>
+
+     <table>
+         <tr>
+             <td> <label for="email">Email</label> </td>
+             <td> <input type="email" placeholder="E-mail" name="email" id="email" required> </td>
+         </tr>
+         <tr>
+          <td> <label for="psw">Lösenord</label> </td>
+          <td> <input type="Password" placeholder="lösenord" name="pws" id="psw-repeat" required> </td>
+         </tr>
+         <tr>
+          <td> <label for="psw">Upprepa Lösenord</label> </td>
+          <td> <input type="Password" placeholder="lösenord" name="pws" id="psw-repeat" required> </td>
+         </tr>
+         <tr>
+          <td> <label for="tid">När ska tjänsten börjas?</label> </td>
+          <td> <input type="date" id="time" name="time"> </td>
+         </tr>
+         <tr>
+          <td> <label for="text">Text</label> </td>
+          <td> <input type="text" placeholder="Skriv din text här" name="text" id="text"> </td>
+         </tr>
+     </table>
+
+    
+    <div>
+
+        <p> Vad har du för kön??? </p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Man</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Kvinna</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Osäker</label>
+
+    </div>
+    
+    <div>
+
+        <p> Hur snabbt ska surf hastigheten vara?</p>
+        <button type="button">100Mb/s</button>
+        <button type="button">250Mb/s</button>
+        <button type="button">500Mb/s</button>
+
+    </div>
+    <hr>
+    <button type="submit" class="registerbtn">Skicka</button>
+    <button type="reset">Ta bort</button>
+</form>
+</body>
+</html>
