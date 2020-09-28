@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        header.{
+            background-color: black;
+        }
+        section.{
+            background-color: black;
+        }
+        footer.{
+            background-color: black;
+        }
+    </style>
 </head>
 <body>
+    <div>
+        <header>
+        <p> Välkommen </p>
+        </header>
+    </div>
+    <section>   
     <form action="mailto:Mahdi.Ahmadi@elev.ga.ntig.se" method="get" enctype="text/plain">
         <h1>Mahdia (Mahdis Telia)</h1>
         <p>Tack för att du fyller i alla uppgifter!</p>
@@ -31,7 +48,7 @@
          </tr>
          <tr>
           <td> <label for="text">Text</label> </td>
-          <td> <input type="text" placeholder="Skriv din text här" name="text" id="text"> </td>
+          <td><textarea type=text placeholder="skriv texten här" name="text" id="text" cols="40" rows="4"></textarea></td>
          </tr>
      </table>
 
@@ -60,5 +77,11 @@
     <button type="submit" class="registerbtn">Skicka</button>
     <button type="reset">Ta bort</button>
 </form>
+</section>
+<div>
+    <footer>
+    <p>All rights reserved ™</p>
+    </footer>
+</div>
 </body>
 </html>
