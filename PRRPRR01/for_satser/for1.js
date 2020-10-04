@@ -3,11 +3,11 @@
 for (let i=1 ; i<=10 ; i++) {
 console.log (`${i}.harrr harr har ha!`)
 }
-let p_for1 = document.querySelector("#talserie1")
+let p_talserie1 = document.querySelector("#talserie1")
 let p_klass = document.querySelector("#klasslista")
 
 for (let i=0 ; i<=10 ;i++) {
-p_for1.innerHTML += `${i}.hej från JS <br/>`
+p_talserie1.innerHTML += `${i}.hej från JS <br/>`
 }
 
 let p_summa = document.querySelector("#summa")
