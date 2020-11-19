@@ -7,4 +7,10 @@ countWordBtn.addEventListener("click", countWords)
 
 function countWords() {
     console.log("kör funktionen countWords");
+    let text = textArea.value
+    console.log(text);
+    let words = text.split(" ")
+    console.log(words.length);
+    p_displayWords.innerHTML = words.length
 }
+
