@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+.container {
+    border: 2px solid black;
+    width: 600px;
+    border-radius: 9px;
+    margin: 2rem auto;
+    background-color: khaki;
+}
+
+form {
+    text-align: center;
+}
+
+
+input[type="button"] {
+    border-radius: 9px;
+;
+}
