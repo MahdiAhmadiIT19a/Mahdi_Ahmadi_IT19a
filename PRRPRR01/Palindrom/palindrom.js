@@ -10,7 +10,7 @@ let str = textarea.value
 console.log(str);
 let res = str.split("");
 console.log(res);
-let ror = str.reverse().join('');
-console.log(ror);
+let revers = res.reverse().join('');
+console.log(revers);
 }
 
