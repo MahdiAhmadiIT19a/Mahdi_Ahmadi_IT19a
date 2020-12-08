@@ -10,7 +10,8 @@
     background-size: cover;
 }
 .header {
-    width: 100%;
+    margin: auto;
+    width: 90%;
     height: 80px;
     display: block;
     background-color: black;
@@ -69,8 +70,152 @@
     font-size: 16px;
 }
 
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.wrapper h1 {
+    font-size: 52px;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Montserrat";
+}
+
+.sides {
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.sides .side1 {
+    background-color: burlywood;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    padding: 0px;
+    position: inherit;
+    border: 1px whitesmoke;
+    border-style: solid;
+    border-radius: 50px;
+}
+
+.sides .side2 {
+    background-color: burlywood;
+    width: 90%;
+    height: 200px;
+    margin: 40px;
+    margin-left: 80px;
+    padding: 0;
+    position: inherit;
+    border: 1px whitesmoke;
+    border-style: solid;
+    border-radius: 50px;
+}
+
+.sides .side1 h3 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: "Montserrat";
+}
+.sides .side2 h3 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: "Montserrat";
+}
+
+.sides .side1 p{
+    margin: 5px 20px;
+    font-size: 18px;
+    font-family: "Montserrat";
+}
+
+.sides .side2 p{
+    margin: 5px 20px;
+    font-size: 18px;
+    font-family: "Montserrat";
+}
+
+.features {
+    background-color: burlywood;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features figure {
+    margin: auto;
+    width: 100px;
+}
+
+.features figure img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: white 0px 0px 10px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3rem;
+    text-align: center;
+    background-color: burlywood;
+}
+
+.tim {
+    display: inline;
+    width: 200px;
+}
+
+
+.container h1{
+    color: #222;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+    font-family: "Montserrat";
+}
+
+.container h2{
+    color: #222;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.tim_p {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.tim_p p {
+    font-size: 2rem;
+    color: #222;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
+
 body {
     background-image: url(./bilder/dota2.jpg);
     background-size: cover;
 }
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Montserrat";
+}
